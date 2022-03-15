@@ -1,0 +1,48 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Inter";
+}
+
+.main {
+  margin: 0 auto;
+  margin-top: 20px;
+  width: 550px;
+  height: 200px;
+  background: linear-gradient(246.26deg, #614385 0%, #516395 100%);
+  color: #fff;
+  text-align: center;
+}
+.main h1 {
+  padding-top: 50px;
+  font-size: 22px;
+}
+.main h2 {
+  font-size: 40pt;
+  margin: 0;
+}
+input {
+  background-color: #1723461c;
+  border: 0px solid;
+  border-radius: 5px;
+  width: 80px;
+  font-size: 50px;
+  color: #fff;
+  font-family: "Inter";
+}
+input:focus {
+  outline: none;
+}
+.results {
+  margin: 0 auto;
+  width: 550px;
+  height: 275px;
+  background: #fbf7ee;
+  text-align: center;
+  color: #1a1921;
+}
+.results h3 {
+  margin: 0;
+  padding-top: 15px;
+}

@@ -1,0 +1,23 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="main">
+            <h1>Metric/Imperial unit conversion</h1>
+            <input type="number" class="myNumber" min="0" oninput="lengthConverter(this.value)" onchange="lengthConverter(this.value)"/>
+        </div>
+        
+        <div class="results">
+            <h3>Length (Meter/Feet)</h3>
+            <p>0 meters = 0.000 feet | <span id="myFeet">0</span> feet = <span id="outputMeters">0.000</span> meters</p>
+            
+            <h3>Volume (Liters/Gallons)</h3>
+            <p >0 liters = 0.000 gallons |<span> 0 gallons = 0.000 liters</span></p>
+            
+            <h3>Mass (Kilograms/Pounds)</h3>
+            <p>0 kilos = 0.000 pounds |<span> pounds = 0.000 kilos</span></p>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>
