@@ -1,7 +1,10 @@
-const number =  document.querySelector(".myNumber").value
-console.log(number);
-let feet = document.getElementById('myFeet');
-
+const myNumber =  document.querySelector(".myNumber")
+const feet = document.getElementById("myFeet")
+myNumber.addEventListener("change", () => {
+    let num = myNumber.value 
+    console.log(num)
+    feet.innerHTML = num 
+})
 
 
 function lengthConverter(valNum) {
