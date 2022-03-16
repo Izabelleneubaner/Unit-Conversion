@@ -8,8 +8,8 @@ body {
 .main {
   margin: 0 auto;
   margin-top: 20px;
-  width: 550px;
-  height: 200px;
+  width: 41.5%;
+  height: 30%;
   background: linear-gradient(246.26deg, #614385 0%, #516395 100%);
   color: #fff;
   text-align: center;
@@ -36,8 +36,8 @@ input:focus {
 }
 .results {
   margin: 0 auto;
-  width: 550px;
-  height: 275px;
+  width: 41.5%;
+  height: 46%;
   background: #fbf7ee;
   text-align: center;
   color: #1a1921;
